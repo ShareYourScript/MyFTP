@@ -1,0 +1,17 @@
+select[multiple] {
+	font-size: 0.85em;
+	color: #666;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.help-block {
+	font-size: 0.9em;
+}
+
+a.remove {
+	color: #FF3535;
+}
+
+a.remove:hover {
+	color: #FA0000;
+}

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+
+<root>
+	<options>
+		<add_email_field>true</add_email_field><!-- add an email field to send POST data by email -->
+	</options>
+
+	<!-- list of fields displayed on the index -->
+	<displayed_fields>
+		<field>User</field>
+		<field>status</field>
+		<field>Dir</field>
+	</displayed_fields>
+
+	<!-- database information (MySQL only) -->
+	<database>
+		<host>localhost</host>
+		<db_name>mathieu</db_name>
+		<user>root</user>
+		<password>admin</password>
+		<table>users</table> <!-- name of the users table -->
+		<identifier>User</identifier> <!-- the column which identify a record, should be "id" (primary key) -->
+	</database>
+</root>
